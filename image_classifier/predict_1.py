@@ -112,7 +112,7 @@ basic usage
 py -m predict_1 "./test_images_2/fire lily.jpg" trained_model.h5
 
 options
-py -m predict_1 "./test_images_2/fire lily.jpg" trained_model.h5 --top_k 2
+py -m predict_1 "./test_images_2/fire lily.jpg" trained_model.h5 --top_k 10
 
-
+py -m predict_1 "./test_images_2/fire lily.jpg" trained_model.h5 --category_names new_map.json
 """
